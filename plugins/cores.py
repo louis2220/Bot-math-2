@@ -22,7 +22,7 @@ def embed_error(title: str, desc: str = "") -> discord.Embed:
     return discord.Embed(title=f"❌ {title}", description=desc, color=0xE74C3C)
 
 def embed_info(title: str, desc: str = "") -> discord.Embed:
-    return discord.Embed(title=f"ℹ️ {title}", description=desc, color=BOT_COLOR)
+    return discord.Embed(title=f"🚫 {title}", description=desc, color=BOT_COLOR)
 
 # ── Cores disponíveis ─────────────────────────────────────────────────────────
 
